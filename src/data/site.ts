@@ -1,8 +1,9 @@
 export const navItems = [
-  { label: "Philosophy", href: "#philosophy" },
-  { label: "Architecture", href: "#architecture" },
-  { label: "Documents", href: "#documents" },
-  { label: "Community", href: "#community" }
+  { label: "Manifesto", href: "/manifesto" },
+  { label: "Philosophy", href: "/#philosophy" },
+  { label: "Architecture", href: "/#architecture" },
+  { label: "Documents", href: "/#documents" },
+  { label: "Community", href: "/#community" }
 ];
 
 export const features = [

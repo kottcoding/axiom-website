@@ -82,3 +82,17 @@ Edit document metadata in:
 ```text
 src/data/site.ts
 ```
+
+## Manifesto Page
+
+This version includes a dedicated route:
+
+```text
+/manifesto
+```
+
+After deployment, open:
+
+```text
+https://YOUR-PROJECT.pages.dev/manifesto
+```
