@@ -10,7 +10,7 @@ export default function Hero() {
           <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300 md:text-xl">Axiom is a decentralized constitutional monetary network designed for humans, applications, and AI agents — built around fixed supply, low-energy security, micropayments, and rules no founder can override.</p>
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
             <a href="#documents" className="inline-flex items-center justify-center gap-2 rounded-2xl bg-white px-6 py-4 font-semibold text-black transition hover:bg-slate-200">Read Whitepaper <ArrowRight size={18} /></a>
-            <a href="https://github.com/" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/15 px-6 py-4 font-semibold text-white transition hover:border-axiom-cyan/60 hover:bg-white/5"><Github size={18} /> GitHub</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/15 px-6 py-4 font-semibold text-white transition hover:border-axiom-cyan/60 hover:bg-white/5"> <Github size={18} /> GitHub </a>
           </div>
           <div className="mt-10 grid max-w-2xl grid-cols-3 gap-4">
             <Stat label="Max Supply" value="100M AXM" />
