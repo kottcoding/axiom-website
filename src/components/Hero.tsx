@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Github } from "lucide-react";
 
 export default function Hero() {
   return (
