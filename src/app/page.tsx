@@ -7,5 +7,15 @@ import Community from "@/components/Community";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  return (<main><Header /><Hero /><Features /><Architecture /><Documents /><Community /><Footer /></main>);
+  return (
+    <main>
+      <Header />
+      <Hero />
+      <Features />
+      <Architecture />
+      <Documents />
+      <Community />
+      <Footer />
+    </main>
+  );
 }
