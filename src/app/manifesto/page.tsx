@@ -21,7 +21,7 @@ export default function ManifestoPage() {
   return (
     <main>
       <Header />
-      <section className="px-5 pt-36 pb-20">
+      <section className="px-5 pt-40 pb-20">
         <div className="mx-auto max-w-5xl">
           <div className="mb-6 inline-flex rounded-full border border-axiom-cyan/30 bg-axiom-cyan/10 px-4 py-2 text-sm text-axiom-cyan">Axiom Manifesto</div>
           <h1 className="text-5xl font-black tracking-tight text-white md:text-7xl">Trust mathematics,<span className="block bg-gradient-to-r from-axiom-cyan via-axiom-blue to-axiom-green bg-clip-text text-transparent">not power.</span></h1>

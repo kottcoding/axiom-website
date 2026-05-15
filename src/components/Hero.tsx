@@ -3,7 +3,7 @@ import { ArrowRight, Github } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden px-5 pt-36">
+    <section className="relative overflow-hidden px-5 pt-40">
       <div className="absolute left-1/2 top-24 -z-10 h-72 w-72 -translate-x-1/2 rounded-full bg-axiom-cyan/10 blur-3xl" />
       <div className="mx-auto grid max-w-7xl gap-12 py-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <div>
@@ -11,10 +11,10 @@ export default function Hero() {
             Phase 0 · Specification-first monetary protocol
           </div>
           <div className="mb-7 flex items-center gap-4">
-            <div className="relative h-16 w-16 overflow-hidden rounded-3xl border border-axiom-cyan/30 bg-white/5 shadow-logo">
+            <div className="relative h-20 w-20 overflow-hidden rounded-[1.6rem] border border-axiom-cyan/40 bg-white/5 shadow-[0_0_40px_rgba(84,214,255,0.28)]">
               <Image src="/brand/axiom-icon.png" alt="Axiom icon" fill className="object-cover" priority />
             </div>
-            <Image src="/brand/axiom-full-logo.png" alt="Axiom full logo" width={220} height={75} className="h-16 w-auto object-contain" priority />
+            <Image src="/brand/axiom-full-logo.png" alt="Axiom full logo" width={320} height={110} className="h-20 w-auto object-contain drop-shadow-[0_0_24px_rgba(84,214,255,0.20)]" priority />
           </div>
           <h1 className="max-w-4xl text-5xl font-black tracking-tight text-white md:text-7xl">
             Money Beyond <span className="bg-gradient-to-r from-axiom-cyan via-axiom-blue to-axiom-green bg-clip-text text-transparent">Control</span>

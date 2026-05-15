@@ -23,3 +23,8 @@ Ready-to-upload Next.js + TailwindCSS website for Axiom Protocol.
 - Community links: `src/components/Community.tsx`
 - GitHub button: `src/components/Hero.tsx`
 - Documents list: `src/data/site.ts`
+
+## Branding Update
+
+This package includes the enlarged Axiom icon and full logo in the header and hero section.
+Upload all files to the existing GitHub repo and Cloudflare Pages can deploy using the existing project/link.
